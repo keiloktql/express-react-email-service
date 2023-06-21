@@ -4,7 +4,7 @@ This is my research on the integration of react-email and NodeJS (express). I us
 
 - React email does not work with NodeJS very well and would be better paired with NextJS
 - Node does not recognize tsx/jsx by default, so it is not possible to import the react file into the nodejs code directly
-- Found a workaround albeit less dynamic i.e. generate output through `email export` command and `readfilesync` the generated html file
+- Found a workaround albeit less dynamic i.e. generate raw HTML output of the email's React files through `email export` command and `readfilesync` the generated html file
 - Let's hope there will be a good solution for this soon
 
 ## Getting Started
